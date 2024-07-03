@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+i{
+    font-size: 3.2rem;
+}
+#header {
+    font-family: 'Dancing Script', cursive;
+    height: 20vh;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 2rem;
+}
+
+#header h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #343a40;
+}
+
+#header p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #6c757d;
+}
+
+.carousel, .carousel-item, .carousel-item img {
+    height: 40vh;
+}
+
+.carousel-item img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    width: 100%;
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1ç4rem;
+}
+
+.footer-box {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center; /* İçeriğin ortalanması için */
+}
+
+.footer-logo {
+    width: 100px; /* Logonun genişliğini ayarlar */
+    height: auto; /* Oranları koruyarak yüksekliği otomatik ayarlar */
+    margin-bottom: 1rem; /* Alttaki metinle aralık oluşturur */
+}
+
+.footer span{
+    color: #fff;
+    font-size: 1.4rem;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .footer-box {
+        margin-bottom: 0; /* Daha büyük ekranlarda alt marjı kaldırır */
+    }
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aqua {
+    background-color: #e0f7fa;
+    color: #00796b;
+}
+
+.purple {
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+}
+
+.green {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#android {
+    height: 60%;
+    transform: scale(1.5);
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+span {
+    font-size: 2.4rem;
+    color: #3DDC84;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    .flex {
+        flex-direction: row;
+    }
+
+    .box {
+        height: auto;
+    }
+
+    #header {
+        height: 30vh;
+    }
+
+    .carousel, .carousel-item, .carousel-item img {
+        height: 50vh;
+    }
+
+    #android {
+        right: 2rem;
+        bottom: 2rem;
+    }
+
+    span {
+        font-size: 3.2rem;
+        left: 2rem;
+    }
+}
