@@ -61,6 +61,10 @@ i{
     font-size: 1.8rem;
 }
 
+strong{
+    font-size: 1.8rem
+}
+
 .box>h3{
     font-size: 2.4rem;
 }
