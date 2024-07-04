@@ -57,6 +57,14 @@ i{
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.box>p{
+    font-size: 1.8rem;
+}
+
+.box>h3{
+    font-size: 2.4rem;
+}
+
 .footer {
     width: 100%;
     background-color: #343a40;
